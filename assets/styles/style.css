@@ -1,0 +1,182 @@
+
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 90%;
+    font-family: 'Kablammo', cursive;
+    color: blue;
+    
+    
+}
+   
+*{ 
+    padding: 0%;    
+    margin: 0%
+
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 0%;
+    
+    
+}
+
+.hero{
+    padding-left: 7%;
+    margin-top: 10em;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 30px;
+   
+}
+
+#my_image{
+    width: 15em;
+    height: 20em;
+}
+
+.heroText{
+    padding-top: 5vh;
+    padding-right: 5%;
+    font-family: 'Roboto Slab', serif;
+}
+
+button{
+    margin-top: 30px;
+    padding: 5px;
+    border-width: 0cap;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.skillset{
+    padding-left: 22%;
+    padding-right: 5%;
+    margin-top: 2em;
+    gap: 10px;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    
+    
+
+}
+
+.skillset p{
+    padding-top: 10px;
+}
+
+.skillset h4{
+    padding-top: 10px;
+}
+
+#ui_design:hover{
+    background-color: blue;
+    
+}
+
+#product_design:hover{
+    background-color: blue;
+    
+}
+
+#branding:hover{
+    background-color: blue;
+    
+}
+
+#ui_design{
+    margin-bottom: 20%;
+    border-style: solid;
+    width: 1000em;
+    
+
+}
+
+#product_design{
+    margin-bottom: 20%;
+    border-style: solid;
+    width: 1000em;
+
+}
+#branding{
+    margin-bottom: 20%;
+    border-style: solid;
+    width: 1000em;
+    
+}
+
+.projectsTitle{
+    padding-left: 22%;
+    margin-top: 1em;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.projects{
+    padding-left: 22%;
+    padding-right: 5%;
+    display: flex;
+    gap: 20px;
+}
+
+.projects img{
+    width: 100%;
+    
+}
+
+.projects strong:hover{
+    padding-left: 10%;
+    background-color: blue;
+}
+.projects strong{
+    padding-bottom: 0%;
+}
+
+.projects p{
+    padding-bottom: 10%;
+}
+
+#contact {
+    padding-right: 5%;
+    margin-bottom: 10%;
+}
+#contact p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#linkedin{
+    padding-left: 10%;
+    width: 50px;
+    height: 50px;
+}
+#youtube{
+    width: 50px;
+    height: 50px;
+}
+#whatsapp{
+    width: 50px;
+    height: 50px;
+}
+
